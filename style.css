@@ -1,0 +1,108 @@
+/* General styles */
+body {
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card styles */
+.card-white {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    color: #6dd5ed; /* Bleu-gris foncé */
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Profile picture */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6c63ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #191970;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer ul li {
+    display: inline;
+}
+
+.social-logo {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-logo:hover {
+    transform: scale(1.2);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
